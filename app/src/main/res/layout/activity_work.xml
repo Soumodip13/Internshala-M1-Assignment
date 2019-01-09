@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+>
+    <TextView
+            android:text="Chief Executive Officer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/work1"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+
+    />
+    <TextView
+            android:text="Stark Industries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/workDescription"
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+    />
+    <View
+            android:id="@+id/wdivider"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="?android:attr/dividerHorizontal"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:color="#CCCCCC"
+            android:layout_marginTop="8dp"
+    />
+    <TextView
+            android:text="Iron Man (Part Time)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/work2"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+
+    />
+    <TextView
+            android:text="United States of America"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/work2Description"
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+    />
+    <View
+            android:id="@+id/wdivider2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="?android:attr/dividerHorizontal"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:color="#CCCCCC"
+            android:layout_marginTop="8dp"
+    />
+</LinearLayout>
