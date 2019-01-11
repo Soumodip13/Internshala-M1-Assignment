@@ -65,6 +65,7 @@ android:orientation="vertical"
                 android:layout_height="wrap_content"
                 android:text="Education"
                 android:textColor="#ffffff"
+                android:id="@+id/edbutton"
 
         />
         <Button
@@ -72,6 +73,7 @@ android:orientation="vertical"
                 android:layout_height="wrap_content"
                 android:text="Work Experience"
                 android:textColor="#ffffff"
+                android:id="@+id/wrkbutton"
 
         />
     </LinearLayout>
